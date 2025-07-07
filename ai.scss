@@ -232,3 +232,51 @@ header {
     }
   }
 }
+
+
+//  Secrion 4 ------------
+
+.section-4 {
+    width: 100%;
+
+    @media (width: 500px) {
+        .container{
+
+            flex-direction: column;      
+            
+            .box-1{
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+
+        .container {
+        max-width: 1300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+
+    
+        .box-1 {
+            width: 300px;
+            height: 350px;
+            border-radius: 7px;
+            color: white;
+            text-align: center;
+            background-color: rgb(15, 26, 44);
+
+            img {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-top: 20px;
+                opacity: 0.7;
+
+            }
+        }
+    }
+}
