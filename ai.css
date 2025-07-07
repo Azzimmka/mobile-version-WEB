@@ -258,4 +258,107 @@ header .container button {
 }
 .section-5 .container .info p {
   opacity: 0.7;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  margin-bottom: 100px;
+}
+@media (max-width: 500px) {
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .container .box-3 .social {
+    display: flex;
+    justify-content: center;
+  }
+  footer .container .box-3 .p3 {
+    display: flex;
+    justify-content: center;
+  }
+  footer .line-1 {
+    display: none;
+  }
+}
+footer .container {
+  max-width: 1300px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 100px auto;
+}
+footer .container .line-1 {
+  background-color: white;
+  border: none;
+  height: 300px;
+  width: 1px;
+}
+footer .container .line-2 {
+  background-color: green;
+  border: none;
+  height: 1px;
+  width: 300px;
+  display: none;
+}
+footer .container .box-1 h3 {
+  margin-bottom: 20px;
+}
+footer .container .box-1 .p1 {
+  font-weight: 300;
+  opacity: 0.7;
+}
+footer .container .box-1 .mail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+footer .container .box-1 .mail p {
+  font-weight: bold;
+  color: white;
+}
+footer .container .box-1 .call {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .container .box-1 .call p {
+  font-weight: bold;
+  color: white;
+}
+footer .container .box-1 .location {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+footer .container .box-1 .location p {
+  font-weight: bold;
+  color: white;
+}
+footer .container .box-2 p {
+  margin-top: 24.5px;
+  opacity: 0.7;
+}
+footer .container .box-3 .p1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+footer .container .box-3 .bold {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer .container .box-3 .social {
+  display: flex;
+  gap: 30px;
+}
+footer .container .box-3 .p3 {
+  margin-top: 56px;
+  display: flex;
+  gap: 20px;
 }/*# sourceMappingURL=ai.css.map */
