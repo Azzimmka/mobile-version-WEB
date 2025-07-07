@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-around;
     max-width: 1300px;
-    margin-top: 20px;
+    margin: 20px auto;
 
     span {
       color: white;
@@ -71,7 +71,7 @@ header {
   }
 }
 
-//  Secrion 1 ------------
+//  Section 1 ------------
 
 .section {
   width: 100%;
@@ -178,7 +178,7 @@ header {
   }
 }
 
-//  Secrion 3 ------------
+//  Section 3 ------------
 
 .section-3 {
   width: 100%;
@@ -234,7 +234,7 @@ header {
 }
 
 
-//  Secrion 4 ------------
+//  Section 4 ------------
 
 .section-4 {
     width: 100%;
@@ -276,6 +276,47 @@ header {
                 margin-top: 20px;
                 opacity: 0.7;
 
+            }
+        }
+    }
+}
+
+
+//  Section 5 ------------
+
+
+.section-5 {
+    width: 100%;
+
+    @media (max-width: 500px) {
+
+        .container {
+            flex-direction: column;
+            text-align: center;
+
+            img {
+                margin-top: 40px;
+                width: 300px;
+            }
+        }
+        
+    }
+
+    .container {
+        max-width: 1300px;
+        margin: 100px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+
+        .info {
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                opacity: 0.7;
             }
         }
     }
