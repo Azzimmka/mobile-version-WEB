@@ -156,6 +156,17 @@ header .container button {
 .section-3 {
   width: 100%;
 }
+@media (width: 500px) {
+  .section-3 .container {
+    flex-direction: column;
+  }
+  .section-3 .container .info {
+    text-align: center;
+  }
+  .section-3 .container img {
+    display: none;
+  }
+}
 .section-3 .container {
   color: white;
   display: flex;

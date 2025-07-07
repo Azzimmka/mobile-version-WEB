@@ -183,6 +183,19 @@ header {
 .section-3 {
   width: 100%;
 
+  @media (width: 500px) {
+    .container{
+        flex-direction: column;
+
+        .info {
+            text-align: center;
+        }
+        img {
+            display: none;
+        }
+    }
+  }
+
   .container {
     color: white;
     display: flex;
