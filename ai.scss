@@ -77,7 +77,7 @@ header {
   width: 100%;
 
 
-  @media (width: 500px) {
+  @media (max-width: 500px) {
     .container{
         align-items: center;
         display: flex;
@@ -183,7 +183,7 @@ header {
 .section-3 {
   width: 100%;
 
-  @media (width: 500px) {
+  @media (max-width: 500px) {
     .container{
         flex-direction: column;
 
@@ -239,7 +239,7 @@ header {
 .section-4 {
     width: 100%;
 
-    @media (width: 500px) {
+    @media (max-width: 500px) {
         .container{
 
             flex-direction: column;      

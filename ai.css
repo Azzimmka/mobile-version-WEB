@@ -65,7 +65,7 @@ header .container button {
 .section {
   width: 100%;
 }
-@media (width: 500px) {
+@media (max-width: 500px) {
   .section .container {
     align-items: center;
     display: flex;
@@ -156,7 +156,7 @@ header .container button {
 .section-3 {
   width: 100%;
 }
-@media (width: 500px) {
+@media (max-width: 500px) {
   .section-3 .container {
     flex-direction: column;
   }
@@ -200,7 +200,7 @@ header .container button {
 .section-4 {
   width: 100%;
 }
-@media (width: 500px) {
+@media (max-width: 500px) {
   .section-4 .container {
     flex-direction: column;
   }
