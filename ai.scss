@@ -17,7 +17,7 @@ header {
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1300px;
     margin: 20px auto;
 
@@ -57,6 +57,7 @@ header {
 
   @media (max-width: 500px) {
     .container {
+      padding: 20px;
       span {
         display: block;
       }
@@ -76,33 +77,14 @@ header {
 .section {
   width: 100%;
 
-  @media (max-width: 500px) {
-    .container {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
 
-      .info {
-        text-align: center;
-
-        .butts {
-          flex-direction: column;
-          align-items: center;
-        }
-      }
-      img {
-        width: 300px;
-        margin-top: 100px;
-      }
-    }
-  }
 
   .container {
     display: flex;
     color: white;
     align-items: center;
     margin: 50px auto;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1300px;
 
     .info {
@@ -149,6 +131,31 @@ header {
       }
     }
   }
+  @media (max-width: 500px) {
+    .container {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      .info {
+        text-align: center;
+
+        h1 {
+          font-size: 42px;
+        }
+
+        .butts {
+          flex-direction: row;
+          align-items: center;
+        }
+      }
+      img {
+        width: 300px;
+        margin-top: 100px;
+      }
+    }
+  }
 }
 
 //  Secrion 2 ------------
@@ -170,7 +177,7 @@ header {
       justify-content: center;
       align-items: center;
       img {
-        width: 300px;
+        width: 170px;
       }
     }
   }
@@ -236,22 +243,15 @@ header {
 .section-4 {
   width: 100%;
 
-  @media (max-width: 500px) {
-    .container {
-      flex-direction: column;
 
-      .box-1 {
-        margin-bottom: 20px;
-      }
-    }
-  }
 
   .container {
-    max-width: 1300px;
+    max-width: 1600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    gap: 20px;
 
     .box-1 {
       width: 300px;
@@ -261,6 +261,10 @@ header {
       text-align: center;
       background-color: rgb(15, 26, 44);
 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
       img {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -269,6 +273,19 @@ header {
       p {
         margin-top: 20px;
         opacity: 0.7;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .container {
+      flex-direction: column;
+      .box-1 {
+        width: 370px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
     }
   }
